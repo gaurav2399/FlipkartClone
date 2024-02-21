@@ -1,0 +1,280 @@
+.logo h1 {
+    color: #6998ab;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    margin-top: 3px;
+    display: inline;
+    vertical-align: middle;
+  }
+  
+  .navbar {
+    margin: 0 20px;
+  }
+  
+  .navbar h5 {
+    margin: 0;
+  }
+  
+  p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 30px 0;
+    font-weight: 300;
+  }
+  
+  .icon-img {
+    width: 56px;
+    height: 56px;
+    margin-right: 5px;
+  }
+  
+  .nav-links {
+    margin-left: 10px;
+  }
+  
+  .admin-text {
+    display: inline;
+    margin-left: 5px;
+  }
+  
+  .admin-icon {
+    margin-right: 7px;
+    margin-left: 3px;
+    align-items: center;
+    margin-bottom: 2px;
+  }
+  
+  .search-section {
+    background-image: url("./images/search-section-bg-img.jpg");
+    background-size: 100% 220%;
+    background-repeat: no-repeat;
+    height: 350px;
+    text-align: center;
+  }
+  
+  .search-bar {
+    padding: 10px;
+    display: inline;
+    text-align: center;
+    background-color: white;
+    /* box-shadow: 5px 7px 7px #888888; */
+    border: 1px solid grey;
+    border-radius: 4px;
+  }
+  
+  .search-title {
+    margin-right: 25px;
+    font-size: 1.1rem;
+    color: #222831;
+  }
+  
+  .vl {
+    border-left: 3px solid grey;
+    width: 2px;
+    display: inline;
+  }
+  
+  .search-box {
+    border: 0px solid;
+    width: 30%;
+    margin-left: 10px;
+  }
+  
+  .search-btn {
+    border: none;
+    padding: 9px 20px 9px 20px;
+    margin-left: 10px;
+    background-color: #2f89fc;
+    border-radius: 4px
+  }
+  
+  .list-divider {
+    position: relative;
+  }
+  
+  hr {
+    border-top: 1px;
+  }
+  
+  .divider-heading {
+    display: inline;
+    padding: 5px 20px;
+    font-weight: 500;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  
+  .divider-see-more {
+    display: inline;
+    right: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #2f89fc;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  
+  .flex-container {
+    display: inline-flex;
+    min-width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  
+  .catg-card {
+    border: 2px solid black;
+    margin: 15px 19px;
+    padding: 5px;
+  }
+  
+  .catg-name {
+    display: block;
+    font-size: 1rem;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+  
+  .catg-img, .add-shop-img {
+    width: 250px;
+    height: 120px;
+  }
+  
+  .shop-card {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 6px;
+  }
+  
+  .shop-card img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    border: 2px solid black;
+    display: block;
+    margin: 15px auto;
+  }
+  
+  .shop-card h4 {
+    text-align: center;
+    padding: 10px 0;
+    color: lightseagreen;
+  }
+  
+  .shop-table {
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .shop-table .key {
+    padding: 10px 2px;
+  }
+  
+  .shop-table .key h6{
+    /* margin-left: 20px; */
+    display: inline;
+  }
+  
+  .shop-table .value p{
+    /* margin-left: -45px; */
+    font-size: 1rem;
+    display: inline;
+    position: relative;
+    left: 25%;
+  }
+  
+  .shop-btn {
+    margin: 20px auto 10px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .footer .table-section {
+    width: 100%;
+    background-color: #BFD8D5;
+    margin-top: 20px;
+    padding: 25px 0;
+  }
+  
+  .footer table {
+    background-color: #BFD8D5;
+    width: 65%;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  
+  .footer td {
+    margin: 5px;
+    padding: 10px;
+  }
+  
+  .footer tr {
+    margin: 5px 0;
+  }
+  
+  .footer th {
+    padding-left: 10px;
+  }
+  
+  .footer p{
+    color: black;
+    margin-bottom: 0px;
+    padding: 2px;
+    font-size: 1.2rem;
+  }
+  
+  .table-section a {
+    text-decoration: none;
+    color: #423F3E;
+  }
+  
+  .table-section a:hover, span:hover {
+    cursor:pointer;  
+  }
+  
+  .table-section a:hover {
+    text-decoration:none; 
+    color: black;
+  }
+  
+  .td-selected {
+    color: lightseagreen;
+  }
+  
+  @media (max-width: 767px) {
+    .search-btn {
+      border: none;
+      padding: 9px 20px 9px 20px;
+      margin: 20px auto;
+      background-color: #2f89fc;
+      border-radius: 4px;
+      display: block;
+    }
+  
+    .search-box {
+      width: 45%;
+    }
+  
+    .footer .main-table {
+      width: 80%;
+    }
+  
+  }
+  
+  
+  @media (max-width: 480px){
+    .footer .main-table {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 1024px){
+    .flex-container {
+      justify-content: center;
+    }
+  }

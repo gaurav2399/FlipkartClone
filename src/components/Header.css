@@ -1,0 +1,89 @@
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #2874f0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 10px;
+}
+
+.header__logo {
+    width: 100px;
+    object-fit: contain;
+}
+
+.header__address {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-right: auto; /* Push to the left */
+    margin-left: 10px; /* Add some spacing */
+}
+
+.header__address > div {
+    margin-left: 5px; /* Add spacing between icon and text */
+}
+
+.header__search {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    border-radius: 24px;
+    margin: 0 10px; /* Add some spacing */
+}
+
+.header__searchInput {
+    flex: 1; /* Take remaining space */
+    height: 100%;
+    padding: 10px;
+    border: none;
+    outline-width: 0;
+    border-radius: 5px;
+}
+
+.header__searchIcon {
+    padding: 5px;
+    background-color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Push to the right */
+    margin-right: 10px; /* Add some spacing */
+}
+
+.header__option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 13px;
+    margin-right: 13px;
+    color: white;
+    text-decoration: none;
+}
+
+.header__optionLineOne {
+    font-size: 13px;
+}
+
+.header__optionLineTwo {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.header__optionBasket {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .header__logo {
+        width: 80px; /* Adjust logo size for smaller screens */
+    }
+}
+
