@@ -5,7 +5,7 @@ import ListDivider from "./ListDivider";
 import RowList from "./RowList";
 import Footer from "./Footer";
 import WorkingSpace from "./WorkingSpace";
-import Navbaar from "./Navbar";
+import Navbar from "./Navbar";
 import Banner from "./Banner";
 
 
@@ -19,8 +19,8 @@ function App() {
   return (
     <div>
     {/* <WorkingSpace /> */}
-      <Header />
-      {/* <Navbaar/> */}
+      <Header/>
+      <Navbar/>
       <Banner/>
       {/* <SearchSection /> */}
       <ListDivider divider="Top Categories" />
